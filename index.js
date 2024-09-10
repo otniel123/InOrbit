@@ -1,15 +1,9 @@
-// arrays, objetos
-
-let metas = {
-    value: 'ler um livro por mês',
-    checked: true,
+const start = () =>{
+    let count = 0
+    while(count<=10){
+        console.log(count)
+        count++
+    }
 }
 
-console.log(metas.value)
-
-// function // arrow function
-const criarMeta = () => {
-
-}
-
-function criarMeta(){}
+start()
